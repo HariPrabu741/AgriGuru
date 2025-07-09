@@ -34,7 +34,7 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #1D809F;
+  --bs-primary: #ecb807;
   --bs-secondary: #ecb807;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -97,11 +97,11 @@ body {
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
-  color: var(--bs-body-color);
+  color: #fff;
   text-align: var(--bs-body-text-align);
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 }
 
 hr {
@@ -1997,10 +1997,10 @@ progress {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
-  background-color: #fff;
+  color: #ffffff;
+  background-color: #d9d9d90a;
   background-clip: padding-box;
-  border: 1px solid #ced4da;
+  border: 1px solid #0e101a;
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -2845,7 +2845,7 @@ textarea.form-control-lg {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #1D809F;
+  --bs-btn-bg:#ecb807;
   --bs-btn-border-color: #1D809F;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #196d87;
@@ -4683,9 +4683,9 @@ textarea.form-control-lg {
 }
 
 .alert-info {
-  --bs-alert-color: #055160;
-  --bs-alert-bg: #cff4fc;
-  --bs-alert-border-color: #b6effb;
+  --bs-alert-color: #fff;
+  --bs-alert-bg: rgba(255, 255, 255, 0.1);;
+  --bs-alert-border-color: rgba(255, 255, 255, 0.1);;
 }
 .alert-info .alert-link {
   color: #04414d;
@@ -8156,7 +8156,7 @@ textarea.form-control-lg {
 
 .bg-light {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #ecb807 !important;
 }
 
 .bg-dark {
@@ -10877,7 +10877,7 @@ html {
   height: 100%;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: #1D809F;
+  background: #ecb807;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
