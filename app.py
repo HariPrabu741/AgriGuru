@@ -26,6 +26,10 @@ def get_weather(location):
 def index():
     return render_template('index.html')
 
+@app.route("/old")
+def old():
+    return render_template('old.html')
+
 @app.route("/submit", methods=["POST"])
 def data():
     result_blocks = {
